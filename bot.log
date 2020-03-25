@@ -1,0 +1,122 @@
+2020-03-19 16:47:39,690 - INFO - Запуск бота
+2020-03-19 16:49:17,602 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-19 16:49:26,266 - INFO - Star work bot
+2020-03-19 16:50:57,364 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-19 16:54:30,524 - INFO - Start work bot
+2020-03-19 16:54:40,630 - INFO - Вызван /start
+2020-03-19 16:59:50,136 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 09:41:47,770 - INFO - Start work bot
+2020-03-25 09:42:06,416 - INFO - Вызван /start
+2020-03-25 09:42:11,791 - INFO - Привет лох
+2020-03-25 09:49:35,087 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 09:49:47,691 - INFO - Start work bot
+2020-03-25 09:49:51,769 - INFO - Вызван /start
+2020-03-25 09:50:13,444 - INFO - Meesage - Are you here?
+2020-03-25 09:51:19,385 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 09:57:11,038 - INFO - Start work bot
+2020-03-25 09:57:21,966 - INFO - Вызван /start
+2020-03-25 09:57:33,559 - INFO - Meesage None Тут что тто
+2020-03-25 09:59:16,267 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 09:59:59,809 - INFO - Start work bot
+2020-03-25 10:00:36,706 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kuprin\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 390, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kuprin\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "e:/mylern/lesson1/bot.py", line 20, in talk_to_me
+    logging.info(f'Meesage {update.message[chat][username]} {text_bot_message}')
+NameError: name 'chat' is not defined
+2020-03-25 10:02:06,419 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:02:10,821 - INFO - Start work bot
+2020-03-25 10:03:42,071 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:05:25,286 - INFO - Start work bot
+2020-03-25 10:06:05,211 - INFO - Вызван /start
+2020-03-25 10:06:46,786 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kuprin\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 390, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kuprin\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "e:/mylern/lesson1/bot.py", line 20, in talk_to_me
+    print(data_user_message[chat])
+NameError: name 'chat' is not defined
+2020-03-25 10:07:00,452 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:07:17,407 - INFO - Start work bot
+2020-03-25 10:07:24,798 - INFO - Meesage {'message_id': 122, 'date': 1585123644, 'chat': {'id': 374216527, 'type': 'private', 'username': 'kuprinz', 'first_name': 'Вадим', 'last_name': 'Костюченко'}, 'text': 'asdsdsdsadasdasdas', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 374216527, 'first_name': 'Вадим', 'is_bot': False, 'last_name': 'Костюченко', 'username': 'kuprinz', 'language_code': 'ru'}} asdsdsdsadasdasdas
+2020-03-25 10:17:07,531 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:17:26,667 - INFO - Start work bot
+2020-03-25 10:17:32,492 - INFO - Вызван /start
+2020-03-25 10:18:22,914 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:18:41,529 - INFO - Start work bot
+2020-03-25 10:18:49,124 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:19:15,276 - INFO - Start work bot
+2020-03-25 10:19:20,032 - INFO - Вызван /start
+2020-03-25 10:19:26,184 - INFO - Meesage kuprinz dsdsdsds
+2020-03-25 10:22:35,958 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:23:14,770 - INFO - Start work bot
+2020-03-25 10:23:23,678 - INFO - Meesage kuprinz sdadasdasdas
+2020-03-25 10:23:32,360 - INFO - Вызван /start
+2020-03-25 10:23:32,360 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kuprin\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 390, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kuprin\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "e:/mylern/lesson1/bot.py", line 18, in c_start
+    update.message.reply_text(text + data_user)
+TypeError: can only concatenate str (not "Message") to str
+2020-03-25 10:25:03,888 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:25:16,344 - INFO - Start work bot
+2020-03-25 10:25:32,588 - INFO - Meesage kuprinz sa
+2020-03-25 10:25:58,745 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kuprin\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 390, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kuprin\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "e:/mylern/lesson1/bot.py", line 17, in c_start
+    print(len(data_user))
+TypeError: object of type 'Message' has no len()
+2020-03-25 10:27:18,560 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:27:31,576 - INFO - Start work bot
+2020-03-25 10:27:40,057 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kuprin\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 390, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kuprin\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "e:/mylern/lesson1/bot.py", line 17, in c_start
+    print(len(data_user.chat))
+TypeError: object of type 'Chat' has no len()
+2020-03-25 10:30:06,698 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:30:15,475 - INFO - Start work bot
+2020-03-25 10:30:22,038 - INFO - Вызван /start
+2020-03-25 10:31:09,938 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:31:15,751 - INFO - Start work bot
+2020-03-25 10:31:23,017 - INFO - Вызван /start
+2020-03-25 10:31:28,755 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:31:44,255 - INFO - Start work bot
+2020-03-25 10:31:50,907 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Kuprin\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\dispatcher.py", line 390, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Kuprin\AppData\Local\Programs\Python\Python38-32\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "e:/mylern/lesson1/bot.py", line 16, in c_start
+    print(len(data_user.chat))
+TypeError: object of type 'Chat' has no len()
+2020-03-25 10:36:00,980 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:37:05,760 - INFO - Start work bot
+2020-03-25 10:38:29,697 - INFO - Вызван /start
+2020-03-25 10:38:57,258 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:39:02,628 - INFO - Start work bot
+2020-03-25 10:39:10,973 - INFO - Вызван /start
+2020-03-25 10:39:40,907 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:39:48,660 - INFO - Start work bot
+2020-03-25 10:39:53,264 - INFO - Вызван /start
+2020-03-25 10:52:35,624 - INFO - Received signal 2 (SIGINT), stopping...
+2020-03-25 10:52:41,933 - INFO - Start work bot
+2020-03-25 10:52:47,157 - INFO - Вызван /start
+2020-03-25 10:53:51,884 - INFO - User: kuprinz, Chat id: 374216527, Message: Ohh my good
+2020-03-25 13:03:59,300 - INFO - Received signal 2 (SIGINT), stopping...
